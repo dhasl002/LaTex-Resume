@@ -594,13 +594,14 @@
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{12.5cm} R{4.5cm}}
       \entrytitlestyle{#2} & \entrylocationstyle{#3}\\
-      \multicolumn{2}{L{17cm}}{\descriptionstyle{#5}} \\
+     % \multicolumn{2}{L{17cm}}{\descriptionstyle{#5}} \\
   \end{tabular*}
 }
 
 \newcommand*{\cventryr}[5]{
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
+    \vspace{3mm}
       \descriptionstylexx{#5}
 }
 

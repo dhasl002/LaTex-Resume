@@ -69,10 +69,6 @@
 %     Content
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Make a footer for CV with three arguments(<left>, <center>, <right>)
-\makecvfooter
-  {}
-  {Devin Haslam~~~·~~~Résumé}
-  {\thepage}
 
 \begin{document}
 %%% Make a header for CV with personal data
@@ -81,14 +77,14 @@
 %%% Import contents
 \import{\sectiondir}{education.tex}
 \vspace{-.8mm}
-\import{\sectiondir}{skills.tex}
-\vspace{-.8mm}
 \import{\sectiondir}{experience.tex}
 \vspace{-.8mm}
 \import{\sectiondir}{extracurricular.tex}
 \vspace{-.8mm}
-\import{\sectiondir}{presentation.tex}
+\import{\sectiondir}{skills.tex}
 \vspace{-.8mm}
 \import{\sectiondir}{writing.tex}
+\vspace{5mm}
+\import{\sectiondir}{presentation.tex}
 
 \end{document}
